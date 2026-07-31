@@ -1,8 +1,8 @@
-# standards-lab
+# Standards Lab
 
 Platform-agnostic reference architectures for modern cloud-native enterprise development. The intent is to
-incubate an inner-source ecosystem that drives digital modernization across the enterprise — reusable,
-well-organized patterns teams adopt and build on, rather than re-deriving the same foundations project by
+incubate an inner-source ecosystem for digital modernization across the enterprise — reusable,
+well-organized patterns teams adopt and build on rather than re-deriving the same foundations project by
 project. The standard is built and proven by use, across co-evolving levels; each level is a worked
 example for others to follow.
 
@@ -19,8 +19,7 @@ example for others to follow.
 One cohesive, platform-agnostic reference architecture, built across co-evolving levels:
 
 - **Harness** — distributable Claude Code plugins that codify organizational processes.
-- **Libraries** — layered, independently versioned capability libraries, where the standard first
-  materializes as code.
+- **Libraries** — layered capability libraries, where the standard first appears as code.
 - **Service template** — a minimal runnable service that new services are seeded from.
 - **Reference service** — a web service that composes the libraries and demonstrates each capability in
   place, grown in documented layers.
@@ -29,3 +28,5 @@ One cohesive, platform-agnostic reference architecture, built across co-evolving
 
 - [`claude-plugins`](https://github.com/standards-lab/claude-plugins) — the plugin marketplace, hosting
   `marathon`.
+- [`go-libraries`](https://github.com/standards-lab/go-libraries) — the Go capability libraries: the base
+  module of the library level.
