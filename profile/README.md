@@ -30,3 +30,5 @@ One cohesive, platform-agnostic reference architecture, built across co-evolving
   `marathon`.
 - [`go-libraries`](https://github.com/standards-lab/go-libraries) — the Go capability libraries: the base
   module of the library level.
+- [`go-service-template`](https://github.com/standards-lab/go-service-template) — the service template
+  baseline: the minimal runnable service new services are seeded from.
