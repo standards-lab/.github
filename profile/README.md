@@ -28,18 +28,25 @@ co-evolving levels, its services emitted as container images deployable wherever
 cloud or on premises:
 
 - **Harness** — distributable Claude Code plugins that codify organizational processes.
-- **Libraries** — layered capability libraries, where the standard first appears as code.
-- **Service template** — a minimal runnable service that new services are seeded from.
-- **Reference service** — a web service that composes the libraries and demonstrates each capability in
-  place, grown in documented layers.
+- **Core SDK** — the process-level packages every program in the standard builds on, where the
+  standard first appears as code.
+- **Application SDKs and infrastructure libraries** — peers on the Core SDK: an application SDK per
+  program shape, and one library per technology, each presenting the technology's common standard
+  and the provider's native API — first-class and contained.
+- **Templates** — a minimal runnable application per application SDK that new services are seeded
+  from.
+- **Reference architectures** — a web service that composes the SDKs and infrastructure libraries
+  and demonstrates each capability in place, grown in documented layers.
 
 ## Shipped
 
 - [`claude-plugins`](https://github.com/standards-lab/claude-plugins) — the plugin marketplace, hosting
   `marathon`.
-- [`go-core`](https://github.com/standards-lab/go-core) — the base SDK of the `go-minimal` standard:
+- [`go-core`](https://github.com/standards-lab/go-core) — the Core SDK of the `go-minimal` standard:
   layered configuration, process lifecycle, and logging.
-- [`go-libraries`](https://github.com/standards-lab/go-libraries) — the Go capability libraries: the base
-  module of the library level.
-- [`go-service-template`](https://github.com/standards-lab/go-service-template) — the service template
-  baseline: the minimal runnable service new services are seeded from.
+- [`go-database`](https://github.com/standards-lab/go-database) — the SQL infrastructure library:
+  the standard tier in the base module, with the PostgreSQL provider as a sub-module.
+- [`go-web-sdk`](https://github.com/standards-lab/go-web-sdk) — the Application SDK for web
+  services: the HTTP server, routing, problem responses, probes, and middleware.
+- [`go-web-sdk-template`](https://github.com/standards-lab/go-web-sdk-template) — the web service
+  template: scaffolds an initial `go-minimal` web service with `gonew`.
