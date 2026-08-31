@@ -24,17 +24,20 @@ than re-deriving the same foundations project by project:
 
 Each target standard is a complete reference architecture declaring its own dependency line and
 deployment targets; an architecture or standard intended for production use graduates to its
-own organization, whose name carries the standard's identity.
+own organization, whose name carries the standard's identity. The blueprint is informative, not
+prescriptive: the same arrangement can serve any discipline that benefits from an agentic
+development workflow, and how others structure their own architectures and standards is their
+own to decide.
 
 ## Organization Contents
 
 - [Documentation](https://github.com/standards-lab/docs) — the landing zone: the canonical home
-  for the organization's architectures, standards, and principles.
-  - [Elemental Architecture](https://github.com/standards-lab/docs/blob/main/architectures/elemental-architecture/index.md)
+  for the Elemental Architecture, its standards, and its principles.
+  - [Elemental Architecture](https://github.com/standards-lab/docs/blob/main/architecture.md)
     — the compositional elements a program is built from and the rules that bind them,
     independent of technology.
   - [Principles](https://github.com/standards-lab/docs/blob/main/principles/index.md) — the
-    organizational principles every standard enhances and never loosens.
+    architecture's principles, which every standard enhances and never loosens.
 - [Harness](https://github.com/standards-lab/claude-plugins) — `claude-plugins`, the plugin
   marketplace codifying the organization's development processes: the `marathon` workflow and
   its `marathon-roadmap` extension.
