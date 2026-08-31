@@ -20,6 +20,8 @@ each repository is a worked example for others to follow.
   API — first-class and contained.
 - Independent, artifact-keyed releases per library and service. Cross-language counterparts arrive
   as derived standards; a .NET standard derived from `go-minimal` is anticipated.
+- A repository is scoped to one concern of its standard, in five tiers: Core SDK, application
+  SDKs, infrastructure libraries, templates, and reference architectures.
 
 ## Roadmap
 
@@ -41,7 +43,9 @@ cloud or on premises:
 ## Shipped
 
 - [`claude-plugins`](https://github.com/standards-lab/claude-plugins) — the plugin marketplace, hosting
-  `marathon`.
+  `marathon` and its `marathon-roadmap` extension.
+- [`docs`](https://github.com/standards-lab/docs) — the documentation landing zone: the canonical
+  home for the organization's architectures, standards, and principles.
 - [`go-core`](https://github.com/standards-lab/go-core) — the Core SDK of the `go-minimal` standard:
   layered configuration, process lifecycle, and logging.
 - [`go-database`](https://github.com/standards-lab/go-database) — the SQL infrastructure library:
