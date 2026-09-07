@@ -63,3 +63,6 @@ structure their own architectures and standards is their own to decide.
     an initial Go Elemental web service with `gonew`.
   - [`go-web-service`](https://github.com/standards-lab/go-web-service) — the holistic
     reference web service, grown in documented layers; versionless until its 1.0.
+- [`sqlate`](https://github.com/standards-lab/sqlate) — the SQL templating library: authored
+  `.sql` files made dynamic and composable, with its own guide. A standalone library adjacent
+  to Go Elemental, which its libraries consume.
