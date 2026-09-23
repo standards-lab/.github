@@ -40,15 +40,17 @@ structure their own architectures and standards is their own to decide.
 
 ## Organization Contents
 
-- [Architecture](https://github.com/standards-lab/architecture) — the canonical home for the Elemental Architecture, its standards, and
-  its principles.
-  - [Elemental Architecture](https://github.com/standards-lab/architecture/blob/main/architecture.md) — the compositional elements a
-    program is built from and the rules that bind them, independent of technology.
-  - [Principles](https://github.com/standards-lab/architecture/blob/main/principles/README.md) — the architecture's principles, which
-    every standard enhances and never loosens.
-  - [Standards](https://github.com/standards-lab/architecture/blob/main/standards/README.md) — each standard and its member repositories.
-    [Go Elemental](https://github.com/standards-lab/architecture/blob/main/standards/go-elemental/README.md), the Go implementation on the
-    standard library, is the first.
+- [Architecture](https://github.com/standards-lab/architecture) — the canonical home for the
+  Elemental Architecture, its standards, and its principles.
+  - [Elemental Architecture](https://github.com/standards-lab/architecture/blob/main/architecture.md)
+    — the compositional elements a program is built from and the rules that bind them,
+    independent of technology.
+  - [Principles](https://github.com/standards-lab/architecture/blob/main/principles/README.md) —
+    the architecture's principles, which every standard enhances and never loosens.
+  - [Standards](https://github.com/standards-lab/architecture/blob/main/standards/README.md) —
+    each standard and its member repositories.
+    [Go Elemental](https://github.com/standards-lab/architecture/blob/main/standards/go-elemental/README.md),
+    the Go implementation on the standard library, is the first.
 - [Harness](https://github.com/standards-lab/claude-plugins) — `claude-plugins`, the plugin
   marketplace codifying the organization's development processes: the `marathon` workflow and
   its extensions.
