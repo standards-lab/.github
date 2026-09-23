@@ -40,29 +40,19 @@ structure their own architectures and standards is their own to decide.
 
 ## Organization Contents
 
-- [Documentation](https://github.com/standards-lab/docs) — the landing zone: the canonical home
-  for the Elemental Architecture, its standards, and its principles.
-  - [Elemental Architecture](https://github.com/standards-lab/docs/blob/main/architecture.md)
+- [Architecture](https://github.com/standards-lab/architecture) — the canonical home for the
+  Elemental Architecture, its standards, and its principles.
+  - [Elemental Architecture](https://github.com/standards-lab/architecture/blob/main/architecture.md)
     — the compositional elements a program is built from and the rules that bind them,
     independent of technology.
-  - [Principles](https://github.com/standards-lab/docs/blob/main/principles/index.md) — the
-    architecture's principles, which every standard enhances and never loosens.
+  - [Principles](https://github.com/standards-lab/architecture/blob/main/principles/README.md) —
+    the architecture's principles, which every standard enhances and never loosens.
+  - [Standards](https://github.com/standards-lab/architecture/blob/main/standards/README.md) —
+    each standard and its member repositories.
+    [Go Elemental](https://github.com/standards-lab/architecture/blob/main/standards/go-elemental/README.md),
+    the Go implementation on the standard library, is the first.
 - [Harness](https://github.com/standards-lab/claude-plugins) — `claude-plugins`, the plugin
   marketplace codifying the organization's development processes: the `marathon` workflow and
-  its `marathon-roadmap` extension.
-- [Go Elemental](https://github.com/standards-lab/docs/blob/main/standards/go-elemental/index.md)
-  — the Go implementation of the Elemental Architecture on the standard library, the
-  organization's first standard.
-  - [`go-core`](https://github.com/standards-lab/go-core) — the Core SDK: layered
-    configuration, the process lifecycle, and the logger.
-  - [`go-database`](https://github.com/standards-lab/go-database) — the SQL infrastructure
-    library, with the PostgreSQL provider as a sub-module.
-  - [`go-web-sdk`](https://github.com/standards-lab/go-web-sdk) — the Application SDK for web
-    services.
-  - [`go-web-sdk-template`](https://github.com/standards-lab/go-web-sdk-template) — scaffolds
-    an initial Go Elemental web service with `gonew`.
-  - [`go-web-service`](https://github.com/standards-lab/go-web-service) — the holistic
-    reference web service, grown in documented layers; versionless until its 1.0.
-- [`sqlate`](https://github.com/standards-lab/sqlate) — the SQL templating library: authored
-  `.sql` files made dynamic and composable, with its own guide. A standalone library adjacent
-  to Go Elemental, which its libraries consume.
+  its extensions.
+- [Workspace context](https://github.com/standards-lab/org) — `org`, the coordination context:
+  the roadmap, the references catalog, and the leadership briefs.
